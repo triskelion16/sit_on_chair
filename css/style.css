@@ -1,0 +1,53 @@
+/***** Base styles *****/
+
+body {
+    font-family: 'ralewayregular', sans-serif;
+}
+
+.main_width {
+    width: 1055px;
+    margin: 0 auto;
+}
+
+/***** Header styles *****/
+
+body > header {
+    background-color: black;
+    height: 41px;
+}
+
+.title {
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 13px;
+}
+
+.title span {
+    font-weight: bold;
+    color: #27c7ab;
+    font-size: 14px;
+    padding: 0 5px 0 5px;
+    font-family: 'ralewaybold';
+}
+
+.header_nav {
+    display: inline-block;
+    float: right;
+    margin-top: 13px;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'ralewaybold';
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 0 0 45px;
+}
