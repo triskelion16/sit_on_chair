@@ -61,19 +61,29 @@ header a {
 
 .slider {
     height: 505px;
-    background: rgba(255,255,255,1);
-    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(207,207,209,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(207,207,209,1)));
-    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(207,207,209,1) 100%);
-    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(207,207,209,1) 100%);
-    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(207,207,209,1) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(207,207,209,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfcfd1', GradientType=0 );
+
+
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(66%, rgba(246,246,246,1)), color-stop(100%, rgba(207,207,209,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfcfd1', GradientType=0 );
+
+
 }
 
-section .container {
+section .slider_container {
     position: relative;
     height: 504px;
+}
+
+section .chair {
+    position: absolute;
+    left: -30px;
+    top: 70px;
 }
 
 section .click_left {
@@ -100,17 +110,11 @@ section .click_right {
     right: 0;
 }
 
-section .chair {
-    position: absolute;
-    left: -40px;
-    top: 70px;
-}
-
 section article {
     width: 500px;
     height: 300px;
     position: absolute;
-    right: 90px;
+    right: 85px;
     top: 115px;
 }
 
@@ -134,23 +138,26 @@ section article {
 }
 
 .slider .p2 {
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 14px;
+    /*font-weight: bold;*/
     text-align: center;
     padding: 10px;
+    margin: 0 25px 0 25px;
     letter-spacing: 1px;
     line-height: 20px;
+    color: #5a5a5a;
 }
 
-.see_more {
+.see_more_button {
     color: white;
     background-color: #27c7ab;
     text-transform: uppercase;
     font-size: 24px;
-    border-radius: 10%;
+    border-radius: 10px 10px 10px 10px;
     font-family: 'ralewayregular';
-    padding: 10px 50px 10px 50px;
-    margin: 10px 100px 0 100px;
+    padding: 10px 45px 10px 45px;
+    margin: 20px 100px 0 100px;
+    border: none;
 }
 
 
