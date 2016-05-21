@@ -7,8 +7,10 @@ body {
 .main_width {
     width: 1055px;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
+/*************************/
 /***** Header styles *****/
 
 body > header {
@@ -16,18 +18,20 @@ body > header {
     height: 41px;
 }
 
+header > div {
+    line-height: 41px;
+}
 .title {
     color: white;
     text-transform: uppercase;
     display: inline-block;
     font-size: 14px;
-    margin-top: 13px;
+    letter-spacing: 1px;
 }
 
 .title span {
     font-weight: bold;
     color: #27c7ab;
-    font-size: 14px;
     padding: 0 5px 0 5px;
     font-family: 'ralewaybold';
 }
@@ -35,7 +39,6 @@ body > header {
 .header_nav {
     display: inline-block;
     float: right;
-    margin-top: 13px;
 }
 
 header li {
@@ -49,5 +52,110 @@ header a {
     font-family: 'ralewaybold';
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 0 0 45px;
+    padding-left: 45px;
+    letter-spacing: 1px;
 }
+
+/*********************************/
+/***** Section Slider styles *****/
+
+.slider {
+    height: 505px;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(207,207,209,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(207,207,209,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(207,207,209,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(207,207,209,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(207,207,209,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(207,207,209,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfcfd1', GradientType=0 );
+}
+
+section .container {
+    position: relative;
+    height: 504px;
+}
+
+section .click_left {
+    border: 0;
+    color: #27c7ab;
+    font-family: 'ralewaylight';
+    font-size: 65px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+    line-height: 500px;
+    position: absolute;
+    left: 0;
+}
+
+section .click_right {
+    border: 0;
+    color: #27c7ab;
+    font-family: 'ralewaylight';
+    font-size: 65px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+    line-height: 500px;
+    position: absolute;
+    right: 0;
+}
+
+section .chair {
+    position: absolute;
+    left: -40px;
+    top: 70px;
+}
+
+section article {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    right: 90px;
+    top: 115px;
+}
+
+.slider_text {
+    width: 500px;
+    height: 200px;
+}
+
+.slider .p1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    padding: 19px;
+}
+
+.slider p span {
+    font-weight: bold;
+    color: #27c7ab;
+    padding: 0 5px 0 5px;
+    font-family: 'ralewaybold';
+}
+
+.slider .p2 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.see_more {
+    color: white;
+    background-color: #27c7ab;
+    text-transform: uppercase;
+    font-size: 24px;
+    border-radius: 10%;
+    font-family: 'ralewayregular';
+    padding: 10px 50px 10px 50px;
+    margin: 10px 100px 0 100px;
+}
+
+
+
+
+
+
+
