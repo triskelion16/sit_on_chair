@@ -7,13 +7,12 @@ body {
 .main_width {
     width: 1055px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 /*************************/
 /***** Header styles *****/
 
-body > header {
+header {
     background-color: black;
     height: 41px;
 }
@@ -57,22 +56,19 @@ header a {
 }
 
 /*********************************/
-/***** Section Slider styles *****/
+/***** Section SLIDER styles *****/
 
 .slider {
     height: 505px;
 
-
-background: rgba(255,255,255,1);
-background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(66%, rgba(246,246,246,1)), color-stop(100%, rgba(207,207,209,1)));
-background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
-background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
-background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfcfd1', GradientType=0 );
-
-
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(66%, rgba(246,246,246,1)), color-stop(100%, rgba(207,207,209,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfcfd1', GradientType=0 );
 }
 
 section .slider_container {
@@ -139,7 +135,6 @@ section article {
 
 .slider .p2 {
     font-size: 14px;
-    /*font-weight: bold;*/
     text-align: center;
     padding: 10px;
     margin: 0 25px 0 25px;
@@ -160,9 +155,43 @@ section article {
     border: none;
 }
 
+/**********************************/
+/***** Section PIC_BOX styles *****/
+
+.pic_box {
+    border: 1px solid blue;
+    height: 293px;
+}
 
 
+/*********************************/
+/***** Section TARIFF styles *****/
+
+.tariff {
+    background-color: #f0f0f0;
+}
+
+.tariff_container {
+    border: 1px solid pink;
+    height: 715px;
+}
 
 
+/********************************/
+/********* Aside styles *********/
+
+.contact {
+    border: 1px solid brown;
+    height: 488px;
+}
+
+
+/*********************************/
+/********* Footer styles *********/
+
+footer {
+    border: 1px solid green;
+    height: 165px;
+}
 
 
