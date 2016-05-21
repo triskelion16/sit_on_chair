@@ -26,6 +26,7 @@ header > div {
     display: inline-block;
     font-size: 14px;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .title span {
@@ -44,7 +45,7 @@ header li {
     display: inline-block;
 }
 
-header a {
+header li a {
     color: white;
     font-size: 14px;
     font-weight: bold;
@@ -60,6 +61,7 @@ header a {
 
 .slider {
     height: 505px;
+    background-color: #f0f0f0;
 
     background: rgba(255,255,255,1);
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 66%, rgba(207,207,209,1) 100%);
@@ -140,7 +142,7 @@ section article {
     margin: 0 25px 0 25px;
     letter-spacing: 1px;
     line-height: 20px;
-    color: #5a5a5a;
+    color: #000;
 }
 
 .see_more_button {
@@ -156,12 +158,64 @@ section article {
 }
 
 /**********************************/
-/***** Section PIC_BOX styles *****/
+/** Section PIC_CONTAINER styles **/
 
-.pic_box {
-    border: 1px solid blue;
-    height: 293px;
+.pic_container {
+    height: 325px;
 }
+
+.box {
+    width: 329px;
+    height: 225px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.box1 {
+    background-image: url(../images/box1_img.jpg);
+    margin-right: 29px;
+}
+
+.box2 {
+    background-image: url(../images/box2_img.jpg);
+    margin-right: 29px;
+}
+
+.box3 {
+    border: 1px solid #cccccc;
+}
+
+.background {
+    background-color: rgba(255, 255, 255, .4);
+    height: 62px;
+    margin-top: 150px;
+}
+
+.pic_container h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 1px 20px;
+    padding: 20px 0 0 0;
+}
+
+.underline_small {
+    height: 7px;
+    width: 145px;
+    background-color: #27c7ab;
+    margin: 0 0 5px 20px;
+}
+
+.pic_container p {
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 10px;
+    line-height: 1.3em;
+    color: #5a5a5a;
+}
+
+
+
 
 
 /*********************************/
