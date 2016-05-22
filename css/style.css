@@ -1,4 +1,5 @@
-/***** Base styles *****/
+/*****************************/
+/******** Base styles ********/
 
 body {
     font-family: 'ralewayregular', sans-serif;
@@ -8,6 +9,8 @@ body {
     width: 1055px;
     margin: 0 auto;
 }
+
+/* Section: Tariff & Aside */
 
 .section_title {
     font-size: 21px;
@@ -35,6 +38,9 @@ header {
 header > div {
     line-height: 41px;
 }
+
+/*--- Title container ---*/
+
 .title {
     color: white;
     text-transform: uppercase;
@@ -50,6 +56,8 @@ header > div {
     padding: 0 5px 0 5px;
     font-family: 'ralewaybold';
 }
+
+/*--- Nav container ---*/
 
 .header_nav {
     display: inline-block;
@@ -74,6 +82,7 @@ header li a {
 /*********************************/
 /***** Section SLIDER styles *****/
 
+/*- Background -*/
 .slider {
     height: 505px;
     background-color: #f0f0f0;
@@ -99,12 +108,13 @@ section .chair {
     top: 70px;
 }
 
+/* Buttons: right & left */
+
 section .click_left {
     border: 0;
     color: #27c7ab;
     font-family: 'ralewaylight';
-    font-size: 65px;
-    font-weight: bold;
+    font-size: 80px;
     background-color: rgba(0, 0, 0, 0);
     line-height: 500px;
     position: absolute;
@@ -115,13 +125,14 @@ section .click_right {
     border: 0;
     color: #27c7ab;
     font-family: 'ralewaylight';
-    font-size: 65px;
-    font-weight: bold;
+    font-size: 80px;
     background-color: rgba(0, 0, 0, 0);
     line-height: 500px;
     position: absolute;
     right: 0;
 }
+
+/*--- Article container ---*/
 
 section article {
     width: 500px;
@@ -202,6 +213,8 @@ section article {
     border: 1px solid #cccccc;
 }
 
+/* Text in box */
+
 .background {
     background-color: rgba(255, 255, 255, .4);
     height: 62px;
@@ -275,26 +288,91 @@ section article {
 /********* Aside styles *********/
 
 .contact {
-    background-color: antiquewhite;
     height: 488px;
 }
 
+/*--- Form container ---*/
+
 .form_container {
-    background-color: whitesmoke;
     width: 635px;
     height: 372px;
     display: inline-block;
     margin: 34px 72px 0 0;
+    vertical-align: top;
 }
+
+.element {
+    width: 100%;
+    border: 1px solid #a8e3d0;
+    font-size: 30px;
+    font-family: 'ralewaylight';
+    padding: 10px;
+}
+
+.form_container input {
+    height: 66px;
+    margin-bottom: 26px;
+}
+
+.form_container textarea {
+    resize: none;
+    height: 188px;
+}
+
+.form_container ::-webkit-input-placeholder {
+    color: #ccc; /* Chrome, Opera, Safari */
+}
+
+.form_container ::-moz-input-placeholder {
+    color: #ccc; /* Firefox */
+}
+
+.form_container ::-ms-input-placeholder {
+    color: #ccc; /* IE 10+ */
+}
+
+/*--- Send container ---*/
 
 .send_container {
-    background-color: whitesmoke;
     width: 343px;
-    height: 372px;
+    height: 400px;
     display: inline-block;
     right: 0;
+    vertical-align: bottom;
 }
 
+.red_chair {
+    margin: 0 39px 0 40px;
+}
+
+.checkbox {
+    height: 11%;
+    padding: 5px;
+    border: 1px solid #a8e3d0;
+    margin-top: 40px;
+}
+
+.text_agree {
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 0 0 10px;
+    font-size:19px;
+    color: #ccc;
+}
+
+.send {
+    color: white;
+    font-family: 'ralewaybold';
+    width: 343px;
+    background-color: #27c7ab;
+    text-transform: uppercase;
+    font-size: 32px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 0 15px 0;
+    border: none;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
 
 /*********************************/
 /********* Footer styles *********/
@@ -303,23 +381,27 @@ footer {
     height: 165px;
 }
 
+/*--- Copyright container ---*/
+
 .copyright_container {
     width: 635px;
     display: inline-block;
     margin: 100px 72px 0 0;
 }
 
+.copyright_container h1 {
+    font-size: 14px;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+/*--- Links container ---*/
+
 .links_container {
     width: 343px;
     display: inline-block;
     right: 0;
     vertical-align: middle;
-}
-
-.copyright_container h1 {
-    font-size: 14px;
-    color: #888;
-    letter-spacing: 1px;
 }
 
 .links_container img {
@@ -330,13 +412,12 @@ footer {
 .links_container p {
     float: right;
     line-height: 35px;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #888;
-    font-weight: 100;
 }
 
 .links_container p > span {
-    font-weight: 900;
+    font-family: 'ralewaybold';
 }
