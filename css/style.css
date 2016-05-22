@@ -9,6 +9,21 @@ body {
     margin: 0 auto;
 }
 
+.section_title {
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #5a5a5a;
+    padding-top: 42px;
+}
+
+.underline_big {
+    height: 8px;
+    width: 250px;
+    background-color: #27c7ab;
+    margin-top: 7px;
+}
+
 /*************************/
 /***** Header styles *****/
 
@@ -170,6 +185,7 @@ section article {
     display: inline-block;
     vertical-align: top;
     margin-top: 50px;
+    border-radius: 3px 3px 3px 3px;
 }
 
 .box1 {
@@ -214,10 +230,6 @@ section article {
     color: #5a5a5a;
 }
 
-
-
-
-
 /*********************************/
 /***** Section TARIFF styles *****/
 
@@ -226,16 +238,44 @@ section article {
 }
 
 .tariff_container {
-    border: 1px solid pink;
-    height: 715px;
+    height: 720px;
 }
+
+#big_box_container {
+    height: 495px;
+    margin-top: 75px;
+}
+
+.big_box {
+    background-color: white;
+    width: 329px;
+    height: 495px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.big_box1 {
+    margin-right: 29px;
+    border: 2px solid #ddd;
+}
+
+.big_box2 {
+    margin-right: 29px;
+}
+
+.big_box3 {
+    border: 2px solid #ddd;
+}
+
+
 
 
 /********************************/
 /********* Aside styles *********/
 
 .contact {
-    border: 1px solid brown;
+    background-color: antiquewhite;
     height: 488px;
 }
 
@@ -244,7 +284,7 @@ section article {
 /********* Footer styles *********/
 
 footer {
-    border: 1px solid green;
+    background-color: aquamarine;
     height: 165px;
 }
 
