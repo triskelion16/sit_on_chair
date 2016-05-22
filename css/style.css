@@ -279,13 +279,64 @@ section article {
     height: 488px;
 }
 
+.form_container {
+    background-color: whitesmoke;
+    width: 635px;
+    height: 372px;
+    display: inline-block;
+    margin: 34px 72px 0 0;
+}
+
+.send_container {
+    background-color: whitesmoke;
+    width: 343px;
+    height: 372px;
+    display: inline-block;
+    right: 0;
+}
+
 
 /*********************************/
 /********* Footer styles *********/
 
 footer {
-    background-color: aquamarine;
     height: 165px;
 }
 
+.copyright_container {
+    width: 635px;
+    display: inline-block;
+    margin: 100px 72px 0 0;
+}
 
+.links_container {
+    width: 343px;
+    display: inline-block;
+    right: 0;
+    vertical-align: middle;
+}
+
+.copyright_container h1 {
+    font-size: 14px;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.links_container img {
+    float: left;
+    margin-right: 2px;
+}
+
+.links_container p {
+    float: right;
+    line-height: 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    font-weight: 100;
+}
+
+.links_container p > span {
+    font-weight: 900;
+}
