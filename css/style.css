@@ -102,10 +102,21 @@ section .slider_container {
     height: 504px;
 }
 
+/*- Slider -*/
+
 section .chair {
     position: absolute;
     left: -30px;
     top: 70px;
+    display: none;
+}
+
+.slider_container ul {
+    list-style: none;
+}
+
+.slider_container .visible {
+    display: inline-block;
 }
 
 /* Buttons: right & left */
@@ -241,6 +252,10 @@ section article {
     margin-left: 10px;
     line-height: 1.3em;
     color: #5a5a5a;
+}
+
+.box .invisible {
+    display: none;
 }
 
 /*********************************/
