@@ -64,19 +64,50 @@ header > div {
     float: right;
 }
 
-header li {
+.header_nav > ul > li {
     display: inline-block;
-}
-
-header li a {
     color: white;
     font-size: 14px;
-    font-weight: bold;
     font-family: 'ralewaybold';
-    text-decoration: none;
     text-transform: uppercase;
     padding-left: 45px;
     letter-spacing: 1px;
+    position: relative;
+}
+
+.hiddenMenu {
+    display: none;
+    width: 130px;
+    position: absolute;
+    top: 55px;
+    left: 16px;
+    background-color: black;
+    
+}
+
+.hiddenMenu > li > a {
+    font-family: 'ralewayregular';
+    font-size: 16px;
+    text-transform: none;
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.hiddenMenu .triangle {
+    position: absolute;
+    top: -12px;
+    left: 52px;
+    
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12.5px 12px 12.5px;
+    border-color: transparent transparent #000000 transparent;
+}
+
+.header_nav .visible {
+    display: inline-block;
 }
 
 /*********************************/

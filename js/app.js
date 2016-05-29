@@ -51,4 +51,31 @@ document.addEventListener("DOMContentLoaded", function(){
         b2.classList.remove("invisible");
     });
     
+    /***** Drop-down menu *****/
+    
+    var menuLi = document.querySelectorAll(".header_nav > ul > li");
+    
+    for(var i=0; i<menuLi.length; i++) {
+        menuLi[i].addEventListener("mouseover", mouseover);
+        menuLi[i].addEventListener("mouseout", mouseout);
+    }
+    
+    function mouseover(event) {
+        var sublist = this.querySelector("ul");
+        
+        if(sublist !== null) {
+            sublist.classList.add("visible");
+            console.log("visible");
+        }
+    }
+    
+    function mouseout(event) {
+        var sublist = this.querySelector("ul");
+        
+        if(sublist !== null) {
+            sublist.classList.remove("visible");
+            console.log("invisible");
+        }
+    }
+    
 });
